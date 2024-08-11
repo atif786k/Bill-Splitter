@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexTC.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <center><img src="dgn.png" alt="" width="130px" id="dgnID">
+                <h2> Tip Calculator</h2>
+            </center>
+            <button id="ac" onclick="allClear()">A/C</button>
+            <div id="first">
+                <h3> Bill Amount</h3>
+                <span>$</span>
+                <input type="text" id="amount" onkeyup="calculateBill()" placeholder="0.00">
+            </div>
+            <div id="second">
+                <h3 id="tips">Tip</h3>
+                <span>$</span>
+                <input type="text" id="tip" onkeyup="calculateBill()" placeholder="0.0">
+            </div>
+            <br>
+            <div id="minor">
+                <div class="left">
+                    <button id="btn" class="btn1" onclick="decrement()"> - </button>
+                    <h4 id="peoples"> 1 </h4>
+                    <button id="btn" class="btn2" onclick="increment()">+</button>
+                </div>
+                <div class="right">
+                    <h4>Total Amount </h4>
+                    <h4 id="total">$ 00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="indexTC.js"></script>
+</body>
+
+</html>

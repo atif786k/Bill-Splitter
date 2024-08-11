@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    background: url(tips.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 18px;
+
+}
+#container{
+    height: 70vh;
+    width: 24vw;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    text-align: right;  
+    opacity: .9;
+    border-radius: 20px;
+}
+#dgnID{
+    height: 15vh;
+    width: 10vw;
+}
+#ac{
+    margin-right: 40px;
+    margin-top: 12px;
+    height: 5vh;
+    width: 2.5vw;
+    background-color: rgb(30, 86, 255);
+    color: white;
+    border: 2px double rgb(30, 86, 255);
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px grey;
+}
+/* From Internet */
+#ac {
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    justify-content: center;
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 16px;
+  }
+
+  #ac:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  #ac:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+
+
+
+
+
+
+
+#first , #second{
+    text-align: center;
+}
+#second{
+    margin-top: 20px;
+
+}
+span{
+    font-size: 19px;
+    position: relative;
+    left: 22px  ;
+}
+h3{
+    position: relative;
+    right: 80px;
+    top: 3px;
+}
+#tips{
+    position: relative;
+    right: 119px;
+}
+#amount , #tip{
+    height: 4.2vh;
+    width: 18vw;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+#minor{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+#peoples{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+#btn{
+    height: 4.2vh;
+    width: 2vw;
+    color: white;
+    border: 2px solid rgb(30, 86, 255);
+    background-color: rgb(30, 86, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#btn {
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    justify-content: center;
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    /* transition: box-shadow .15s,transform .15s; */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 16px;
+  }
+
+  #btn:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  #btn:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+
+
+.btn1{
+    position: relative;
+    left: 5px;
+}
+.btn2{
+    position: relative;
+    left: 20px;
+}
